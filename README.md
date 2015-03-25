@@ -1,7 +1,14 @@
 Supercharge Your CSS Sass
 ================
+This workshop is designed for beginner and intermediate Sass users.
 
-## Installation
+## Pre-Requisites
+
+* Compiling Sass on your machine
+* Comfortable with CSS
+* Download the repo on to your machine and ensure you can compile Sass
+
+# Installation
 
 See [install.md](https://github.com/minamarkham/supercharge-sass/blob/master/install.md)
 
