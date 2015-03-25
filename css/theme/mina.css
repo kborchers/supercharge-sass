@@ -1,11 +1,11 @@
 /**
- * Mina theme!
+ * Supercharge Your CSS With Sass - Workshop Settings
  * Author: Mina Markham
  */
 
-/*********************************************
- * GLOBAL STYLES
- *********************************************/
+//*********************************************
+// * GLOBAL STYLES
+//********************************************/
 body {
   background: #031327;
   background-color: #031327;
@@ -50,6 +50,11 @@ body {
   margin: 0;
   width: 100%; }
 
+p.quote {
+  font-family: 'nixie_oneregular', cursive;
+  font-weight: normal;
+  font-size: 1.5em; }
+
 ::selection {
   color: white;
   background: #ff3377;
@@ -67,9 +72,9 @@ body {
   width: 50%;
   padding-left: 0.5em !important;}
 
-/*********************************************
- * HEADERS
- *********************************************/
+/**********************************************
+//* HEADERS
+//********************************************/
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -86,9 +91,23 @@ body {
 .reveal h1 {
   text-shadow: none; }
 
-/*********************************************
- * LINKS
- *********************************************/
+.reveal h2 {
+  font-size: 1.75em; }
+
+.reveal h4 {
+  text-transform: none;
+  font-weight: normal; }
+
+.reveal h6 {
+  color: #ddd;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 0;
+  text-transform: uppercase; }
+
+/**********************************************
+//* LINKS
+//********************************************/
 .reveal a:not(.image) {
   color: #ff3377;
   text-decoration: none;
@@ -107,15 +126,15 @@ body {
   color: #fff;
   background: #d9d9d9; }
 
-/*********************************************
- * IMAGES
- *********************************************/
+/**********************************************
+//* IMAGES
+//********************************************/
 .reveal section img {
   margin: 15px 0px; }
 
-/*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
+/**********************************************
+//* NAVIGATION CONTROLS
+//********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
   border-right-color: #ff3377; }
@@ -144,9 +163,9 @@ body {
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #eeeeee; }
 
-/*********************************************
- * PROGRESS BAR
- *********************************************/
+/**********************************************
+//* PROGRESS BAR
+//********************************************/
 .reveal .progress {
   background: #cccccc; }
 
@@ -158,48 +177,32 @@ body {
   -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
-/*********************************************
- * SLIDE NUMBER
- *********************************************/
+/**********************************************
+//* SLIDE NUMBER
+//********************************************/
 .reveal .slide-number {
   color: #333333; }
 
-.reveal h2 {
-  font-size: 1.75em; }
+/**********************************************
+//* BACKGROUNDS
+//********************************************/
 
-.reveal h6 {
-  color: #ddd;
-  font-size: 18px;
-  line-height: 18px;
-  margin-bottom: 0;
-  text-transform: uppercase; }
+.full-code body {
+  background: #3F3F3F; }
 
-.reveal h4 {
-  text-transform: none;
-  font-weight: normal; }
+.full-code body .reveal pre code {
+  max-height: 600px;
+  margin-top: -50px; }
 
-p.quote {
-  font-family: 'nixie_oneregular', cursive;
-  font-weight: normal;
-  font-size: 1.5em; }
-
-.ampersand body {
-  background: url("../../gifs/ampersand.gif") no-repeat center center;
-  background-size: cover; }
+.me body {
+  background: url("../../img/bg-me.jpg") no-repeat center center;
+  background-size: 125%; }
 
 .ibm-design body {
   background: url("../../img/ibm-design.jpg") no-repeat center center;
   background-size: cover; }
 
-.import body {
-  background: url("../../img/import.png") no-repeat;
-  background-size: cover; }
-
 .ibm-design h2, .ibm-design h3 { color: #ffffff; }
-
-.me body {
-  background: url("../../img/be-me.jpg") no-repeat center center;
-  background-size: 125%; }
 
 .sass-terminal body {
   background: url("../../img/sass-terminal.jpg") no-repeat 0 -22px; }
@@ -207,8 +210,23 @@ p.quote {
 .sass-terminal code {
   color: #ffffff; }
 
-.sassmeister body {
-  background: url("../../img/sassmeister.png") no-repeat 0;
+.inception body {
+  background: url("../../gifs/inception3.gif") no-repeat center center;
+  background-size: cover; }
+
+.inception h2, .inception h3 {
+  color: #ffffff; }
+
+.speechless body {
+  background: url("../../gifs/speechless.gif") no-repeat center center;
+  background-size: cover; }
+
+.ampersand body {
+  background: url("../../gifs/ampersand.gif") no-repeat center center;
+  background-size: cover; }
+
+.import body {
+  background: url("../../img/import.png") no-repeat;
   background-size: cover; }
 
 .smacss body {
@@ -221,22 +239,8 @@ p.quote {
 .sassystarter body {
   background: url("../../img/grey-prism.png") repeat scroll 50% 0px/50% auto transparent; }
 
-.full-code body {
-  background: #3F3F3F; }
-
-.full-code body .reveal pre code {
-  max-height: 600px;
-  margin-top: -50px; }
-
-.tools-sublime-colors body {
-  background: #26292c url("../../img/tools-sublime.png") no-repeat 0;
-  background-size: cover; }
-
-.tools-sublime-colors h3 {
-  color: #ffffff; }
-
-.library-director body {
-  background: #26292c url("../../img/library-director.png") no-repeat 0;
+.tools-sassmeister body {
+  background: url("../../img/tools-sassmeister.png") no-repeat 0;
   background-size: cover; }
 
 .library-compass body {
@@ -261,16 +265,20 @@ p.quote {
   background: url("../../img/library-susy.jpg") no-repeat 0;
   background-size: cover; }
 
+.tools-sublime-colors body {
+  background: #26292c url("../../img/tools-sublime.png") no-repeat 0;
+  background-size: cover; }
+
+.tools-sublime-colors h3 {
+  color: #ffffff; }
+
+.library-director body {
+  background: #26292c url("../../img/library-director.png") no-repeat 0;
+  background-size: cover; }
+
 .library-sache body {
   background: url("../../img/library-sache.jpg") no-repeat 0;
   background-size: cover; }
-
-.inception body {
-  background: url("../../gifs/inception3.gif") no-repeat center center;
-  background-size: cover; }
-
-.inception h2, .inception h3 {
-  color: #ffffff; }
 
 .thanks body {
   background: url("../../gifs/kaylee-umbrella.gif") no-repeat center center;
@@ -279,9 +287,9 @@ p.quote {
 .thanks h3 {
   color: #031327; }
 
-.speechless body {
-  background: url("../../gifs/speechless.gif") no-repeat center center;
-  background-size: cover; }
+/**********************************************
+//* FONTS
+//********************************************/
 
 @font-face {
   font-family: 'nixie_oneregular';
