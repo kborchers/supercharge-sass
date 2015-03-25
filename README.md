@@ -60,5 +60,4 @@ Exercise 08 - Logic (Control Directives)
 * [Mo Riza](https://www.flickr.com/photos/moriza/)
 * [Danny Ngan](https://www.flickr.com/photos/dn/)
 
-#### Cupcake Icon
-* Created by Lara for The Noun Project
+* [Cupcake Icon](http://thenounproject.com/term/cupcake/117116/) created by [Lara](http://thenounproject.com/lara.carena/) for [The Noun Project](http://thenounproject.com/)
