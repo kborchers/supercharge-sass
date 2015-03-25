@@ -6,7 +6,7 @@ Before we can compose Sass we need to install it. Sass is built upon Ruby. You'l
 Because Sass is a Ruby gem, the first thing you need to do is install Ruby using the Windows installer. Unlike OS X, Ruby is not installed by default on Windows, so Windows users need to install it manually.
 
 - Download the Ruby installer: [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)  
-  — Look for the version with (x64) on it. ![image](img/install-2.jpg)
+  — Look for the version with (x64) on it. ![image](https://github.com/minamarkham/supercharge-sass/blob/master/img/install-2.jpg)
 
 
 ## Install RVM &amp; Ruby (for Mac OSX &amp; Linux)
@@ -29,7 +29,7 @@ gem install sass
 If that fails, try ```sudo gem install sass```
 
 ### On Windows:
-![image](img/install-1.jpg)  
+![image](https://github.com/minamarkham/supercharge-sass/blob/master/img/install-1.jpg)  
 Once the command prompt is open, install Sass by typing the following in the prompt:
 
 ```
