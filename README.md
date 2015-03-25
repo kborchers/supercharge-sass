@@ -68,3 +68,6 @@ Exercise 08 - Logic (Control Directives)
 * [Danny Ngan](https://www.flickr.com/photos/dn/)
 
 [Cupcake Icon](http://thenounproject.com/term/cupcake/117116/) created by [Lara](http://thenounproject.com/lara.carena/) for [The Noun Project](http://thenounproject.com/)
+
+## Thanks
+This workshop takes inspiration from work done by [Julie Cameron](https://github.com/jewlofthelotus), [Elyse Holladay](https://github.com/elyseholladay) and [Una Kravets](https://github.com/una).
