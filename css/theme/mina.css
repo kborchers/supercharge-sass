@@ -198,7 +198,7 @@ p.quote {
 .ibm-design h2, .ibm-design h3 { color: #ffffff; }
 
 .me body {
-  background: url("../../img/mina-bg.jpg") no-repeat center center;
+  background: url("../../img/be-me.jpg") no-repeat center center;
   background-size: 125%; }
 
 .sass-terminal body {
@@ -229,14 +229,14 @@ p.quote {
   margin-top: -50px; }
 
 .tools-sublime-colors body {
-  background: #26292c url("../../img/sublime-colors.png") no-repeat 0;
+  background: #26292c url("../../img/tools-sublime.png") no-repeat 0;
   background-size: cover; }
 
 .tools-sublime-colors h3 {
   color: #ffffff; }
 
 .library-director body {
-  background: #26292c url("../../img/sass-director.png") no-repeat 0;
+  background: #26292c url("../../img/library-director.png") no-repeat 0;
   background-size: cover; }
 
 .library-compass body {
