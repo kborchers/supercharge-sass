@@ -1,0 +1,106 @@
+.nav-ctn {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 9000 !important;
+  margin-bottom: 0;
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 0px;
+  background-color: #ffffff;
+  border: none;
+}
+.nav-list {
+  padding-left: 0;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  float: left;
+  margin-bottom: 0;
+}
+.nav-list li {
+  position: relative;
+  display: block;
+  float: left;
+ }
+
+.nav-list > li > a {
+  line-height: 27px;
+  position: relative;
+  display: block;
+  padding: 18px 15px;
+  color: #5f5f5f;
+}
+.nav-list > li a:hover,
+.nav-list > li a:focus,
+.nav-list > li a:active {
+  color: #fe4578;
+}
+.nav-list > li.active > a {
+  background-color: transparent;
+  color: #fe4578;
+}
+.nav-list > li.active > a:hover,
+.nav-list > li.active > a:focus,
+.nav-list > li.active > a:active {
+  background-color: transparent;
+  color: #fe4578;
+}
+
+.nav-list > li:first-child > a {
+  padding-left: 0;
+}
+
+.nav-mobile {
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000;
+  background-color: #ffffff;
+  text-align: center;
+}
+.nav-mobile .nav-logo {
+  height: 70px;
+  padding: 0 15px;
+  line-height: 70px;
+  float: none;
+}
+.nav-mobile .nav-logo > img {
+  max-height: 60px;
+  display: inline;
+}
+.nav-toggle {
+  position: relative;
+  float: right;
+  margin-right: 12px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+.nav-toggle {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+.icon-bar {
+  background-color: #5f5f5f;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin-top: 4px;
+}

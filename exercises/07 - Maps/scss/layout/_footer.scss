@@ -1,0 +1,103 @@
+.footer {
+  &-ctn {
+    border-top: 4px solid map-get($colors, 'white');
+    background-color: map-get($colors, 'pink');
+    color: map-get($colors, 'white');
+    padding-top: 30px;
+    @include mq($medium, 'max-width') { text-align: center; }
+    h4 { @include mq($medium, 'max-width') { margin-top: 50px; } }
+    a {
+      color: inherit;
+      &:hover,
+      &:focus,
+      &:active {
+        -moz-opacity: 0.8;
+        -khtml-opacity: 0.8;
+        -webkit-opacity: 0.8;
+        opacity: 0.8;
+        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+        filter: alpha(opacity=80);
+      }
+    }
+  }
+
+  &-list {
+    padding: 0;
+    li {
+      line-height: 1;
+      padding: 8px 0;
+      font-size: 16px;
+      list-style: none;
+      &:before {
+        content: "\f0da";
+        font-family: fontawesome;
+        margin-right: 20px;
+        font-size: 18px;
+        color: map-get($colors, 'white');
+      }
+    }
+    span {
+      -moz-opacity: 0.8;
+      -khtml-opacity: 0.8;
+      -webkit-opacity: 0.8;
+      opacity: 0.8;
+      -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+      filter: alpha(opacity=80);
+    }
+  }
+  &-nav {
+    text-align: right;
+    li {
+      padding: 8px 0;
+      font-size: 16px;
+      list-style-type: none;
+      @include inline-block();
+      padding-left: 5px;
+      padding-right: 5px;
+      @include mq($medium, 'max-width') { 
+        text-align: center;
+        padding: 0;
+      }
+    }
+  }
+  &-secondary {
+    background-color: map-get($colors, 'purple');
+    position: relative;
+    padding: 20px 0 10px;
+    margin-top: 30px;
+    @include mq($medium, 'max-width') { padding-bottom: 80px; }
+    &:before {
+      width: 100%;
+      top: -1px;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+    &:after,
+    &:before {
+      position: absolute;
+      content: "";
+    }
+    &:after {
+      left: 50%;
+      margin-left: -37.5px;
+      top: -18px;
+      width: 75px;
+      height: 29px;
+    }
+    ul { margin-bottom: 0; }
+    > li { padding-right: 20px; }
+  }
+}
+
+.copyright {
+  color: map-get($colors, 'ltpurple');
+  position: relative;
+  padding-bottom: 13px;
+  @include inline-block();
+  &:after { 
+    @include mq($medium, 'max-width') {
+      left: 50%;
+      margin-left: -30px;
+    } 
+  }
+}

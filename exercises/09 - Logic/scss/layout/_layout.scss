@@ -1,0 +1,22 @@
+.column {
+  &-fourth {
+    @include mq($medium) {
+      width: 25%;
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-left: 12.5px;
+      padding-right: 12.5px;
+    }
+  }
+  &-half {
+    @include mq($medium) {
+      width: 50%;
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-left: 12.5px;
+      padding-right: 12.5px;
+    }
+  }
+}

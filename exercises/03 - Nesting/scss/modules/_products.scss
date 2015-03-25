@@ -1,0 +1,127 @@
+.product {
+  &-list {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    margin-left: -12.5px;
+    margin-right: -12.5px;
+  }
+
+  &-item {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-bottom: 24px;
+  }
+  &-ctn {
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-top: -1px;
+    overflow: hidden;
+    img { width: 100%; }
+  }
+  &-info {
+    color: #5f5f5f;
+    text-align: center;
+    display: block;
+    padding: 27px 10px 10px 10px;
+  }
+  &-title {
+    margin-bottom: 0;
+    margin-top: 7.5px;
+    a { color: inherit; }
+  }
+
+  &-icon {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    background-color: #fe4578;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 55px;
+    height: 55px;
+    line-height: 45px;
+    font-size: 25px;
+    margin-top: -27.5px;
+    margin-left: -27.5px;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    overflow: hidden;
+    &:hover {
+      -webkit-animation-name: pulse;
+      animation-name: pulse;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+  }
+  &-image {
+    max-height: 177px;
+    overflow: hidden;
+  }
+  &-overlay { position: relative; }
+
+  &-description { font-size: 13px; }
+
+  &-content {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #fe4578;
+      .product-info { color: #ffffff; }
+    }
+    &.green:hover,
+    &.green:focus,
+    &.green:active {
+      background-color: #00c680;
+      .product-icon { background-color: #00c680;}
+    }
+
+    &.blue:hover,
+    &.blue:focus,
+    &.blue:active {
+      background-color: #5ac2d3;
+      .product-icon { background-color: #5ac2d3; }
+    }
+    &.orange:hover,
+    &.orange:focus,
+    &.orange:active {
+      background-color: #fe9a42;
+      .product-icon { background-color: #fe9a42; }
+    }
+    &.purple:hover,
+    &.purple:focus,
+    &.purple:active {
+      background-color: #98519a;
+      .product-icon { background-color: #98519a; }
+    }
+    &.gold:hover,
+    &.gold:focus,
+    &.gold:active {
+      background-color: #dabf77;
+      .product-icon { background-color: #dabf77; }
+    }
+    &.gray:hover,
+    &.gray:focus,
+    &.gray:active {
+      background-color: #5f5f5f;
+      .product-icon { background-color: #5f5f5f; }
+    }
+  }
+}

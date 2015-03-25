@@ -1,0 +1,32 @@
+// ==========================================================================
+// = Global Variables
+// ==========================================================================
+
+// color scheme
+// =============
+
+$colors: (
+  'pink'                    : #fe4578, 
+  'green'                   : #00c680,
+  'blue'                    : #5ac2d3,
+  'purple'                  : #98519a,
+  'ltpurple'                : #d4afd5,
+  'orange'                  : #fe9a42,
+  'gold'                    : #dabf77,
+  'gray'                    : #5f5f5f,
+  'white'                   : #ffffff
+);
+
+// font stacks
+// ===========
+
+$font-family-sans           : 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-display        : 'Pacifico', cursive;
+
+
+// breakpoints
+// ============
+
+$medium                     : 768px;
+$large                      : 991px;
+$xlarge                     : 1200px;

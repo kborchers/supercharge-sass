@@ -1,0 +1,107 @@
+.nav {
+  &-ctn {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 9000 !important;
+    margin-bottom: 0;
+    border: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 0px;
+    background-color: map-get($colors, 'white');
+    border: none;
+    @include mq($medium, 'max-width') { display: none; }
+  }
+  &-list {
+    padding-left: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    float: left;
+    margin-bottom: 0;
+    @include mq($medium, 'max-width') {
+      float: left;
+      margin: 0;
+    }
+    li {
+      position: relative;
+      display: block;
+      float: left;
+      @include mq($medium, 'max-width') { float: left; }
+      &.active > a {
+        background-color: transparent;
+        color: map-get($colors, 'pink');
+        &:hover, &:focus, &:active {
+          background-color: transparent;
+          color: map-get($colors, 'pink');
+        }
+      }
+      &:first-child > a { padding-left: 0; }
+      > a {
+        line-height: 27px;
+        position: relative;
+        display: block;
+        padding: 18px 15px;
+        color: #5f5f5f;
+        @include mq($medium, 'max-width') {
+          padding-top: 11.5px;
+          padding-bottom: 11.5px;
+        }
+        &:hover, &:focus, &:active { color: map-get($colors, 'pink');; }
+      }
+    }
+  }
+
+  &-mobile {
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9000;
+    background-color: map-get($colors, 'white');
+    text-align: center;
+    @include mq($medium) { display: none; }
+  }
+  &-logo {
+    height: 70px;
+    padding: 0 15px;
+    line-height: 70px;
+    float: none;
+    > img {
+      max-height: 60px;
+      display: inline;
+    }
+  }
+
+  &-toggle {
+    margin-right: 12px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+  }
+}
+
+.icon-bar {
+  background-color: map-get($colors, 'gray');
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin-top: 4px;
+}

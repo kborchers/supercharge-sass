@@ -1,0 +1,28 @@
+.social {
+  &-list {
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+    line-height: 63px;
+    float: right;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    > li {
+      padding: 0 5px !important;
+      line-height: 1;
+      padding: 8px 0;
+      font-size: 16px;
+      @include inline-block();
+      padding-left: 5px;
+      padding-right: 5px;
+      &:first-child { padding-left: 0 !important; }
+      &:last-child { padding-right: 0 !important; }
+    }
+    a {
+      color: inherit;
+      &:hover { color: $pink; }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.header {
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+  background: url('../images/bg-header.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 7em 0;
+  margin-bottom: 3em;
+  color: #fff;
+  text-align: center;
+}
+.header:before,
+.header:after {
+  content: " ";
+  display: table;
+}
+.header:after {
+  clear: both;
+}
