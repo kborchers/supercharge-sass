@@ -3,7 +3,7 @@ Supercharge Your CSS Sass
 
 ## Installation
 
-See [install.md](http://minamarkham.github.io/supercharge-sass/blob/master/install.md)
+See [install.md](https://github.com/minamarkham/supercharge-sass/blob/master/install.md)
 
 ## Workshop Sections
 
